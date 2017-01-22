@@ -1,0 +1,9 @@
+WASD - Move
+Mouse - Look around
+Right Click - place/shoot shock wave emitter
+Left Click - to delete placed shock wave emitters
+E - Change Shock wave emitter
+Emitter 1 - Launches player in a specified direction
+Emitter 2 - Fires an emitter that attaches to an object
+Q - Causes emitter to explode and generate a shock wave
+F/G - Cycles through Emitter 1's launch direction
