@@ -3,13 +3,13 @@ using System.Collections;
 namespace GJ2{
 	public class ForceSphere : MonoBehaviour {
 
-		public static int index;
+		public static int index; //static to make balls same direction
 		private float nextCheck;
 		private float checkRate;
 		public float range;
 		public LayerMask AddForceLayers;
 		[SerializeField]
-		Vector3[] directionVector;
+		public Vector3[] directionVector;
 
 		// Use this for initialization
 		void Start () 
@@ -62,7 +62,7 @@ namespace GJ2{
 			if (index < 0)
 				index = 0;
 			
-			Debug.Log ("Force Array Index: "+index);
+			Debug.Log ("Force Array Index: " + index);
 		}
 		IEnumerator DelayImpulseStream()
 		{
